@@ -1,0 +1,25 @@
+<template name='coffee_list'>
+    <table class="table table-striped table-bordered table-condensed">
+        <tr>
+            <th>Coffee Name</th>
+            <th>Coffee Farm Name</th>
+            <th>Coffee Origin Region</th>
+            <th>Coffee Origin Country</th>
+        </tr>
+
+        {{#each coffees}}
+            {{> coffee}}
+        {{/each}}
+    </table>
+
+</template>
+
+
+<template name='coffee'>
+    <tr>
+        <td>{{name}}</td>
+        <td>{{farm}}</td>
+        <td>{{region}}</td>
+        <td>{{country}}</td>
+    </tr>
+</template>
