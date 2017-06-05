@@ -1,0 +1,8 @@
+Neste documentos são encontrados todos os comandos que foram utilizados na console do projeto
+
+meteor add kadira:flow-router
+meteor add kadira:blaze-layout
+meteor add twbs:bootstrap
+meteor add ian:accounts-ui-bootstrap-3
+meteor add accounts-password
+meteor npm install --save bcrypt
